@@ -25,5 +25,4 @@ doWhileLoop(arr) {
     arr.pop();
   } while(arr.length && maybeTrue());
 
-  return arr;
 }

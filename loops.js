@@ -19,10 +19,3 @@ function whileLoop(n) {
 function maybeTrue() {
   return Math.random() >= 0.5;
 }
-
-doWhileLoop(arr) {
-  do {
-    arr.pop();
-  } while(arr.length && maybeTrue());
-
-}

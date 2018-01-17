@@ -24,4 +24,6 @@ function doWhileLoop(arrtemp) {
   do {
     arrtemp.pop();
   } while (arrtemp.length > 0 && maybeTrue());
+
+  return arrtemp;
 }

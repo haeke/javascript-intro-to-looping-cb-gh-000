@@ -20,4 +20,8 @@ doWhileLoop(arr) {
   function maybeTrue() {
     return Math.random() >= 0.5;
   }
+
+  do {
+    arr.pop();
+  } while(arr.length && maybeTrue());
 }

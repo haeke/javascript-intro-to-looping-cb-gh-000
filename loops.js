@@ -24,4 +24,6 @@ doWhileLoop(arr) {
   do {
     arr.pop();
   } while(arr.length && maybeTrue());
+
+  return arr;
 }

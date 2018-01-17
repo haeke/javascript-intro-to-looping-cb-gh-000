@@ -16,11 +16,11 @@ function whileLoop(n) {
   return 'done';
 }
 
-doWhileLoop(arr) {
-  function maybeTrue() {
-    return Math.random() >= 0.5;
-  }
+function maybeTrue() {
+  return Math.random() >= 0.5;
+}
 
+doWhileLoop(arr) {
   do {
     arr.pop();
   } while(arr.length && maybeTrue());
